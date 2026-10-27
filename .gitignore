@@ -1,0 +1,21 @@
+node_modules
+
+# Dependencies and generated build output
+node_modules/
+dist/
+**/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+*-shm
+*-wal
+
+# TypeScript build cache
+*.tsbuildinfo
